@@ -14,7 +14,7 @@ const addAnswer = () => {
   const newAnswer = {
     id: `opt_${Math.floor(Math.random() * 1000000)}`,
     text: "",
-    scaleScores: {},
+    scaleScores: ['TotalScore', 'Block1Score'],
   };
 
   const updatedQuestion = {
